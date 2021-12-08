@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Cute+Font&family=Gamja+Flower&family=Gugi&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Cute Font', cursive;
+    font-size: 28px;
+}
+
+body::after {
+    content: "";
+    background: url("../Background2.jpg");
+    background-size: 100% 100%;
+    height: 300%;
+    width: 100%;
+    opacity: 0.55;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+header {
+    position: relative;
+    font-size: 44px;
+    color:black;
+    top: 10px;
+  }  
+
+.intro h5 {
+    color: black;
+    position: relative;
+    top: 60px;
+}
+
+.intro a {
+    color: black;
+    position: relative;
+    top: 60px;
+}
+
+.intro button {
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    font-family: 'Cute Font', cursive;
+}
+
+.intro button:hover {
+    background-color: black;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    transition: all 1s ease;
+    font-family: 'Cute Font', cursive;
+}
+
